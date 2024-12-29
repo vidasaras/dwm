@@ -1,0 +1,8 @@
+*.diff
+*.o
+dwm
+config.h
+*.orig
+*.rej
+dwm.png
+ 
