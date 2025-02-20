@@ -79,6 +79,7 @@ static const Key keys[] = {
     {MODKEY, XK_Escape, view, {0}},
     {MODKEY, XK_Tab, swapfocus, {0}},
     {MODKEY | ShiftMask, XK_c, killclient, {0}},
+    { MODKEY|ShiftMask, XK_s, spawn, SHCMD("import -window root ~/ss/$(date +%F-%T).png") },
     {MODKEY, XK_t, setlayout, {.v = &layouts[0]}},
     {MODKEY, XK_f, setlayout, {.v = &layouts[1]}},
     {MODKEY, XK_m, setlayout, {.v = &layouts[2]}},
